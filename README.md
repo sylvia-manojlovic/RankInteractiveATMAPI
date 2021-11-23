@@ -3,6 +3,7 @@ The ATM API project for the Rank Interactive Assessment
 
 
 Notes on the Datasource: 
+
 The API was written and tested using SqlServer, 
 connecting with Server=(localdb)\mssqllocaldb;Database=ATM_API;Trusted_Connection=True; 
 
@@ -20,6 +21,7 @@ options.UseSqlServer(@"Server=(localdb)\mssqllocaldb;Database=ATM_API;Trusted_Co
 
 
 TO TEST: 
+
 1st start up the API by executing ATM.API.exe from the folder ATMWebAPI\MSUnitTest\TestWebAPI\TestWebAPI\bin\Debug\netcoreapp3.1 
 
 With the API running, execute the test scripts in order (I used Visual Studio Test -> Test Explorer menu): 
